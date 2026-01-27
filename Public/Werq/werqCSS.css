@@ -1,9 +1,15 @@
+body {
+    background-image: url(raveBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .topBar {
     display: flex;
     height: 10px;
     font-size: smaller;
     background-color: #13092d;
-    color: #ff0000;
+    color: #ed64f5;
     font-weight: bold;
     justify-content: center;
 }
@@ -16,7 +22,7 @@
 }
 
 #container {
-    /*max-width: 900px;*/
+    max-width: 2000px;
     margin: 0 auto;
     width: 100%;
 }
@@ -33,14 +39,17 @@
 }
 
 aside {
-    background-color: #241445;
+    /*background-color: #241445;*/
+    background-color: #9bb3df;
     width: 200px;
     padding: 20px;
     font-size: smaller;
 }
 
 main {
-    background-color: #43256e;
+    /*background-color: #43256e;*/
+    /*background-color: #b713ee;*/
+    background-color: #fee1f0;
     flex: 1;
     padding: 20px;
     order: 2;
@@ -64,8 +73,12 @@ h1 {
 }
 
 .box {
-    background-color: #13092d;
-    border: 1px solid #ed64f5;
+    /*background-color: ghostwhite;*/
+    background-color: cornflowerblue;
+    border: 2px solid floralwhite;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
 }
 
